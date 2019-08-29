@@ -17,8 +17,9 @@ public class HiOne {
 		//    have done their job, the variable "name" holds the supplied
 		//    input String.
 		ArgsProcessor ap = new ArgsProcessor(args);
-		String name = ap.nextString("Enter value for arg 0");
+		String name = ap.nextString("Whats your name?");
 		//
+		System.out.println("Hi,"+ name + " How are you?");
 		// Below this line, enter code so that this program's output says
 		//      Hi, Pat.  How are you?
 		// if the value of name is "Pat"
